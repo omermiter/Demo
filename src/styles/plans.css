@@ -1,0 +1,22 @@
+.plans-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+    .plans-cont {
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem 0;
+    }
+   }
+   
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .plans-cont {
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 2rem;
+    }
+   }
